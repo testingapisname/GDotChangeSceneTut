@@ -1,8 +1,8 @@
 extends CanvasLayer
 
-signal level_changed(level_name)
+signal level_changed
 
 export (String) var level_name = "level"
 
-func _on_ChangedSceneButton_pressed() -> void:
+func _on_ChangeSceneButton_pressed():
 	emit_signal("level_changed", level_name)

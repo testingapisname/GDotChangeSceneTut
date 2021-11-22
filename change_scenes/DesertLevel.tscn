@@ -4,6 +4,7 @@
 
 [node name="DesertLevel" type="CanvasLayer"]
 script = ExtResource( 1 )
+level_name = "desert"
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_left = 2.0
